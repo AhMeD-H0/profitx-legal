@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ProfitX Privacy Policy" />
+  <title>ProfitX Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --bg2: #071426;
+      --card: rgba(255,255,255,.045);
+      --border: rgba(255,255,255,.10);
+      --text: #f8fafc;
+      --muted: #aab6c8;
+      --gold: #f1b544;
+      --gold2: #ffd166;
+      --danger: #ff7070;
+      --link: #8bc7ff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 90% -10%, rgba(241,181,68,.16), transparent 32rem),
+        linear-gradient(145deg, var(--bg), var(--bg2) 55%, var(--bg));
+      line-height: 1.7;
+    }
+    a { color: var(--link); }
+    .wrap { width: min(980px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 54px 0 26px; }
+    .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .5px; }
+    .mark {
+      width: 38px; height: 38px; border-radius: 12px;
+      display: grid; place-items: center; color: #111827; font-weight: 900;
+      background: linear-gradient(135deg, var(--gold2), var(--gold));
+      box-shadow: 0 10px 35px rgba(241,181,68,.22);
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3.7rem); line-height: 1.08; margin: 32px 0 12px; letter-spacing: -1.5px; }
+    .lead { max-width: 760px; color: var(--muted); font-size: 1.05rem; }
+    .meta { color: #8390a5; font-size: .92rem; margin-top: 12px; }
+    .notice {
+      margin: 24px 0 30px; padding: 16px 18px; border-radius: 16px;
+      background: rgba(241,181,68,.075); border: 1px solid rgba(241,181,68,.25);
+      color: #f6e7bd;
+    }
+    main { padding-bottom: 70px; }
+    section {
+      margin: 16px 0; padding: 26px; border: 1px solid var(--border);
+      border-radius: 20px; background: var(--card); backdrop-filter: blur(8px);
+    }
+    h2 { margin: 0 0 12px; font-size: 1.35rem; }
+    h3 { margin: 20px 0 8px; font-size: 1.05rem; color: #fff2c9; }
+    p { margin: 10px 0; color: #d8e0ec; }
+    ul { margin: 10px 0 0; padding-left: 22px; color: #d8e0ec; }
+    li { margin: 8px 0; }
+    strong { color: #ffffff; }
+    .button {
+      display: inline-block; margin-top: 12px; padding: 11px 16px; border-radius: 12px;
+      color: #111827; text-decoration: none; font-weight: 800;
+      background: linear-gradient(135deg, var(--gold2), var(--gold));
+    }
+    .secondary {
+      color: var(--text); background: rgba(255,255,255,.06); border: 1px solid var(--border);
+    }
+    .contact { word-break: break-word; }
+    footer { border-top: 1px solid var(--border); padding: 24px 0 42px; color: #7f8ca0; font-size: .9rem; }
+    @media (max-width: 640px) {
+      header { padding-top: 34px; }
+      section { padding: 20px; border-radius: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand"><span class="mark">PX</span><span>ProfitX</span></div>
+    <h1>Privacy Policy</h1>
+    <p class="lead">
+      This Privacy Policy explains how ProfitX collects, uses, stores, and protects information when you use the ProfitX mobile application and related services.
+    </p>
+    <p class="meta"><strong>Effective date:</strong> September 2, 2026 &nbsp;•&nbsp; <strong>Last updated:</strong> September 2, 2026</p>
+    <div class="notice">
+      ProfitX provides market-related content, including market information, educational content, sessions, news, and signals. ProfitX does not require users to provide payment card details, bank account details, brokerage login credentials, or trading transaction details to create or use a standard account.
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>1. Information We Collect</h2>
+      <h3>Account information</h3>
+      <p>When you create a ProfitX account, we collect information you provide, including:</p>
+      <ul>
+        <li>Full name</li>
+        <li>Username</li>
+        <li>Email address</li>
+        <li>Authentication information necessary to sign in and secure your account</li>
+        <li>An internal account identifier and account role</li>
+      </ul>
+      <p>Authentication is provided through Supabase Auth. ProfitX does not receive or store your password in plain text.</p>
+
+      <h3>Notification and device information</h3>
+      <p>If you allow push notifications, ProfitX may process a Firebase Cloud Messaging (FCM) device token and your device platform so notifications can be delivered. The app may also store whether in-app notifications have been read.</p>
+
+      <h3>Content uploaded by authorized users</h3>
+      <p>Authorized content administrators may choose images from their device when publishing or managing ProfitX content. Selected images may be uploaded to Supabase Storage. ProfitX only accesses images that the authorized user actively selects.</p>
+
+      <h3>Technical information</h3>
+      <p>Our infrastructure and third-party service providers may process standard technical information needed to operate and secure their services, such as IP address, device or browser information, request timestamps, and service logs.</p>
+    </section>
+
+    <section>
+      <h2>2. How We Use Information</h2>
+      <p>We use information for purposes including:</p>
+      <ul>
+        <li>Creating, authenticating, and managing user accounts.</li>
+        <li>Displaying and managing account profile information.</li>
+        <li>Providing ProfitX features, market content, signals, news, and sessions.</li>
+        <li>Sending push notifications about signals, sessions, markets, and news when notification permission is granted.</li>
+        <li>Tracking read/unread status for in-app notifications.</li>
+        <li>Maintaining security, preventing abuse, troubleshooting, and operating the service.</li>
+        <li>Responding to privacy, support, and account-deletion requests.</li>
+      </ul>
+      <p>We do not use personal data for targeted advertising in the current version of ProfitX.</p>
+    </section>
+
+    <section>
+      <h2>3. Service Providers and Third Parties</h2>
+      <p>ProfitX uses third-party services that may process data as necessary to provide their functions:</p>
+      <ul>
+        <li><strong>Supabase</strong> — authentication, database, storage, server-side functions, and application infrastructure.</li>
+        <li><strong>Google Firebase Cloud Messaging</strong> — delivery of push notifications.</li>
+        <li><strong>TradingView</strong> — embedded market charts, screeners, and market widgets. When TradingView content is loaded, TradingView may process technical information under its own terms and privacy practices.</li>
+      </ul>
+      <p>ProfitX may also open external websites or sources when a user chooses to view external market or session content. Those websites operate under their own privacy policies.</p>
+      <p>We do not sell personal information.</p>
+    </section>
+
+    <section>
+      <h2>4. Data Security</h2>
+      <p>We use reasonable technical and organizational measures to protect personal information. Data exchanged with our backend and service providers is transmitted using encrypted HTTPS/TLS connections where supported. Access to account and administrative functionality is restricted through authentication and authorization controls.</p>
+      <p>No system can guarantee absolute security, but we work to reduce unauthorized access, loss, misuse, or alteration of data.</p>
+    </section>
+
+    <section>
+      <h2>5. Data Retention</h2>
+      <p>We retain account information while your ProfitX account remains active and for as long as reasonably necessary to provide the service, maintain security, resolve disputes, comply with legal obligations, and enforce applicable agreements.</p>
+      <p>Notification device tokens may be removed or replaced when you sign out, delete your account, unregister the device, or when the token changes. Some technical logs or backups maintained by our service providers may remain for a limited period according to their operational, security, and legal requirements.</p>
+    </section>
+
+    <section id="delete-account">
+      <h2>6. Account and Data Deletion</h2>
+      <p>ProfitX provides an in-app option to permanently delete your account and associated personal data. You can use the account deletion option from within the app while signed in.</p>
+      <p>If you no longer have access to the app, you can also submit an account deletion request using our external deletion page. We may ask you to verify ownership of the email address associated with the account before completing the request. <strong>Never send your password to us.</strong></p>
+      <a class="button" href="delete-account.html">Request Account Deletion</a>
+    </section>
+
+    <section>
+      <h2>7. Your Choices and Rights</h2>
+      <p>Depending on applicable law, you may have rights to request access to, correction of, or deletion of personal information associated with your account. You may also disable push notifications through your device settings.</p>
+      <p>To make a privacy request, contact us using the details below.</p>
+    </section>
+
+    <section>
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy when ProfitX features, service providers, data practices, or legal requirements change. We will publish the revised policy at this URL and update the “Last updated” date above.</p>
+    </section>
+
+    <section>
+      <h2>9. Contact Us</h2>
+      <p>If you have questions, privacy requests, or account-deletion requests, contact the ProfitX developer team at:</p>
+      <p class="contact"><strong>Email:</strong> <a href="mailto:ahmed.hesham@innovalz.com">ahmed.hesham@innovalz.com</a></p>
+      <a class="button secondary" href="mailto:ahmed.hesham@innovalz.com?subject=ProfitX%20Privacy%20Request">Contact ProfitX</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 ProfitX. Privacy Policy.</div>
+  </footer>
+</body>
+</html>
